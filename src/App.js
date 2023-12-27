@@ -15,9 +15,9 @@ const App = () => {
         const data = await response.json();
         setMovies(data.Search);
     }
-    useEffect( ()=> {
-        searchMovies('Spiderman');
-    }, [])
+    // useEffect( ()=> {
+    //     searchMovies('Spiderman');
+    // }, [])
     return(
         <div className='app'>
             <h1>MovieHouse</h1>
